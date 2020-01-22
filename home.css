@@ -1,0 +1,162 @@
+html { 
+  background-size: cover;
+}
+
+body {
+	font-family: Optima, sans-serif;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+}
+
+body::after {
+  background: url(IMG_4840.JPG);
+  background-size: cover;
+  content: "";
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;   
+}
+
+a {
+	color: white;
+}
+
+.flexcontainer {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+/* Header */
+header {
+	height: 100px;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	border-bottom: 1px solid white;
+	opacity: 1;
+}
+
+nav {
+	text-align: right;
+	flex-grow: 1;
+}
+
+nav span {
+	font-size: 30px;
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+header span {
+	font-size: 30px;
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+/* Intro */
+
+#intro {
+
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	padding: 50px 10px 30px 10px;
+}
+
+#intro h1 {
+	font-size: 60px;
+	margin: auto;
+	font-family: "Apple Chancery", cursive;
+	color: white;
+}
+
+#intro h4 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width:100%;
+	margin: auto;
+	color: white;
+}
+
+/* Portfolio Section */
+
+.flex-container-photos {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 20px;
+}
+
+#gallery h3{
+	font-size: 50px;
+	border-radius: 40px;
+	color: white;
+	width: 20%;
+	text-align: center;
+	margin: auto;
+}
+
+.photo a{
+	display: block;
+	margin: 20px;
+	position: relative;
+}
+
+.photo img{
+	max-width: 300;
+	border-radius: 10%;
+}
+
+
+.photo .caption {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 85%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size:30px;
+  padding: 30px;
+  text-align: center;
+}
+
+.photo:hover .caption {
+  opacity: 1;
+}
+
+/* Contact Section */
+#contact {
+	color: black;
+	width:100%;
+	margin: auto;
+	position: relative;
+}
+
+#contact img{
+	height: 100px;
+	width: 100px;
+}
+
+/* Footer Section */
+footer {
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 10px 10px 10px 10px;
+}
+
+
+
+
+
