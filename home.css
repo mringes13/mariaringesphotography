@@ -78,6 +78,11 @@ header span {
 	color: black;
 }
 
+#intro h1 #construct {
+	border: black;
+	font-size: 30px;
+}
+
 #intro h4 {
 	padding-top: 10px;
 	padding-bottom: 10px;
